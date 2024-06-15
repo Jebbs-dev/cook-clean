@@ -13,6 +13,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      gridTemplateColumns: {
+        footer: "2fr repeat(2, 1.2fr) 1.5fr  2fr",
+      },
     },
   },
   plugins: [],
